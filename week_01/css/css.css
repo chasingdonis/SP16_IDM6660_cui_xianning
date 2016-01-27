@@ -1,0 +1,162 @@
+/* SIMPLE RESET */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 960px;
+  margin: 10px auto;
+  line-height: 1.5;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* FONT STYLES */
+
+html, aside ol li:nth-of-type(2) {
+
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 1.125em;
+
+}
+
+h1, h2, h3, h4, h5, h6, aside ol {
+
+	font-family: 'Oswald', sans-serif;
+
+}
+
+/* STUDENT STYLES */
+
+section {
+    width: 650px;
+    margin: 30px 0;
+    float:left;
+}
+
+section h1 {
+    width: 380px;
+    font-size: 2.5em;
+    line-height: 1em;
+    padding: 10px 0;
+}
+
+article {
+	margin: 30px 0;
+}
+
+h2 {
+    padding: 5px 0;
+    font-size: 1.8em;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+	}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+
+}
+
+aside {
+    width: 250px;
+    float: right;
+    padding: 30px;
+}
+
+aside img{
+ 	padding-top: 30px;
+}
+
+aside ol{
+    text-align: center;
+}
+
+header{
+    background-color: #E8E8E8;  
+    text-align: center;
+    padding: 70px 20px 20px 10px;
+}
+
+header h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 30px;
+}
+
+li {
+     display: inline;
+     font-size: 0.8em;
+}
+
+li a {
+    display: inline-block;
+    padding: 7px;
+}
+
+img {
+    width: 100%;
+}
+
+p{
+    padding: 10px;
+}
+
+span {
+    font-family: "PoiretOne-Regular";
+    font-size: .8em;
+}
+
+span.circle {
+	display: inline-block;
+	background: orange;
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    line-height: 60px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    z-index: 2;
+    font-size: 1em;
+    line-height: .5em;
+    padding: 50px 0;
+}
+
+footer p {
+    padding:20px;
+}
+
+footer nav {
+    float: left;
+    margin: 0 50px 0 0;
+}
+
+footer ol {
+    float: left;
+    padding: 0 100px;
+}
+
+footer li {
+    display: block;
+}
