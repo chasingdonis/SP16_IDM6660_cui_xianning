@@ -27,7 +27,6 @@ html, aside ol li:nth-of-type(2) {
 h1, h2, h3, h4, h5, h6, aside ol {
 
 	font-family: 'Oswald', sans-serif;
-
 }
 
 /* STUDENT STYLES */
@@ -73,9 +72,8 @@ a:hover {
 
 aside {
     width: 20.3680297%;
-    max-width: 15em;
+    max-width: 13em;
     float: right;
-    margin: 10px;
 }
 
 aside img{
@@ -89,8 +87,8 @@ aside ol{
 header{
     background-color: #E8E8E8;  
     text-align: center;
-    padding: 70px 20px 20px 10px;
-    margin: 30px;
+    padding: 50px 20px;
+    margin: 30px 10px 30px 30px;
 }
 
 header h1 {
@@ -138,9 +136,8 @@ section article h2 span:first-of-type {
     padding: 10px;
     text-align: center;
     line-height: 80px;	
-	vertical-align: center;
 	position: absolute;
-	top: 90px;
+	top: 110%;
 	left: 2%;
 	width: 100px;
 	height: 100px;
