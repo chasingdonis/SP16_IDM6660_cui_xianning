@@ -37,6 +37,7 @@ body {
     margin: 2% auto;
     line-height: 1.5;
     padding: 2%;
+    color: #333;
   }
 
 
@@ -198,6 +199,8 @@ footer li {
     background-color: orange;
     max-width: 100%;
     padding: 0;
+    margin: 0;
+    line-height: 1.2;
     }
     
     header {
@@ -216,28 +219,32 @@ footer li {
     color: white;
     }
     
-    section {
-    width: 100%; 
-    margin: 0;
-    padding: .8%;
-    }
-    
-    section h1 {
-    width: 100%;
-    font-size: 1.5em;
-    line-height: 1.em;
-    padding: 0;
-    }
-    
     header nav a {
     display: block;
-    width: 47%;
-    margin: 5px;
-    padding: 10px 0;
+    width: 48%;
+    margin: 2% 2% 2% 0;
+    padding: 2%;
     text-align: center;
     text-decoration: none;
     background-color: #fff;
     float: left;
+    }
+    
+    section {
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    }
+    
+    section article p {
+    padding: 2%;
+    }
+    
+    section h1, h2{
+    width: 100%;
+    font-size: 2em;
+    line-height: 1.em;
+    padding: 3%;
     }
     
     section article h2 {
@@ -247,14 +254,12 @@ footer li {
     aside {
     width: 100%;
     max-width: 480px;
-    float: none;
-    padding: 0;
     }
     
     aside ol {
     text-align: center;
     width: 100%;
-    max-width: 480px;
+    margin-top: 25%;
     }
     
     aside ol li a {
@@ -268,27 +273,30 @@ footer li {
 
 	aside ol li[id] {
     display: inline-block;
-    width: 48%;
+    width: 49%;
 	}
   
     aside img{ 
     width: 100%;
-    padding: 5%;
-    margin-top: 10%;
+    padding: 8%;
+    margin-top: 18%;
     }
     
-    footer {
-    font-size: 1em;
+    footer h1{
+    font-size: 1.5em;
     line-height: .8em;
     }
     
-    footer nav {
-    padding: 0 8%;
-    width: 100%;
-    line-height: 1.2em;
+    footer h2{
+    font-size: 1.2em;
     }
     
-    
+    footer nav {
+    padding: 0 8% 0 5%;
+    width: 100%;
+    line-height: .5em;
+    }
+        
     footer nav a:hover {
     color: white;
     }
@@ -296,6 +304,7 @@ footer li {
     footer a {
      width: 200%;
      line-height: 0;
+     padding: 5% 0 0 5%;
     }
     
 }
