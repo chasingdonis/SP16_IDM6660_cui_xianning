@@ -1,0 +1,200 @@
+/* SIMPLE RESET */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+
+html, aside ol li:nth-of-type(2) {
+
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 1.125em;
+
+}
+
+h1, h2, h3, h4, h5, h6, aside ol {
+
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+    max-width: 98%;
+    position: relative;
+    margin: 2% auto;
+    line-height: 1.5;
+    padding: 2%;
+    color: #333;
+  }
+
+section {
+    display: block;
+    position: relative;
+    width: 94%; 
+    margin: 3%;
+}
+
+section h1 {
+    width: 75%;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    padding: 1% 0;
+}
+
+
+header{ 
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Merriweather', serif;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ff2e4f;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 100;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+img {
+    width: 100%;
+}
+
+section a {
+ text-decoration: none;
+ font-size: 1.4em;
+ color: #333;
+}
+
+section a:hover {
+ color: #ff2e4f
+}
+
+p{
+    padding-top: 1%;
+    font-size: 1.3em;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.note {
+    text-align: right;
+    font-family: 'Tahoma', sans-serif;
+} 
+
+.read {
+    background-color: #ff2e4f;
+    border: 1px white solid;
+    width: 130px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 2px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.read a {
+    color: white;
+}
+
+.read a:hover {
+    color: #ccc;
+}
+
+a img {
+    width: 80px;
+    position: absolute;
+}
+
+article {
+    margin-top: 10%;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    z-index: 2;
+    font-size: 1em;
+    line-height: .5em;
+    padding-top: 7%;
+    margin: 3%;
+}
+
+footer p {
+    padding-top: 3%;
+}
+
+footer nav {
+    float: left;
+    margin: 3% 10% 0 0;
+    padding-bottom: 5%;
+}
+
+footer ol {
+    float: left;
+    padding: 2% 10%;
+}
+
+footer ol li{
+    padding-top: 8%;
+}
+
+footer li {
+    display: block;
+}
+
