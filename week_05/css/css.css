@@ -6,10 +6,6 @@ html {
   box-sizing: border-box;
 }
 
-img {
-    width: 100%;
-}
-
 *, *:before, *:after {
 	margin:0;
 	padding:0;
@@ -18,8 +14,7 @@ img {
   box-sizing: inherit;
 }
 
-h1, h2, h3, h4, h5, h6, aside ol {
-
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -53,10 +48,10 @@ header{
 }
 
 nav {
-position:fixed;
-bottom:0;
-z-index:1000;
-width: 370px;
+    position:fixed;
+    bottom:0;
+    z-index:1000;
+    width: 370px;
 }
 
 ul {
@@ -156,6 +151,7 @@ p{
 
 .note {
     text-align: right;
+    font-size: .8em;
     font-family: 'Tahoma', sans-serif;
 } 
 
@@ -174,7 +170,7 @@ p{
 }
 
 .read a:hover {
-    color: #ccc;
+    color: #000;
 }
 
 a img {
