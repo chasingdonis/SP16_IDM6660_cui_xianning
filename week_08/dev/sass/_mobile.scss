@@ -1,0 +1,130 @@
+@media screen and (max-width: 500px) {
+$get-path-to-assets: "../img";
+ 
+   html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+    
+html {
+    font-family: 'Marison', sans-serif;
+    font-size: 1.2em;
+}
+
+body {
+    max-width: 98%;
+    position: relative;
+    margin: 2% auto;
+    line-height: 1.5;
+    padding: 2%;
+    background-color: #eaeaea;
+  }
+
+header {
+    background-image: url("#{$get-path-to-assets}/logo3.png");
+    background-repeat: no-repeat; 
+    background-size: 170%;
+    float:left;
+ }
+    
+ ul {
+    position: relative;
+    margin-top: 62%;
+    list-style: none;
+    left: 0;   
+} 
+
+article {
+    float: right;
+    width: 98%;
+    padding-top: 10%;
+    clear:both;
+    margin-bottom: 10%;
+}
+    
+aside {
+    width: 97%;
+    clear: both;
+    background-color: rgba(9,171,246,0.6);
+    padding: 4%;
+    margin-left: 2%;
+    z-index: 1;
+}
+    
+section {
+    width: 97%;
+    float: left;
+    margin-left: 2%;
+}
+    
+section img {
+    width: 60%;
+}
+
+.package1 {
+    position: relative;
+    left: 0;
+    margin-top: 5%;
+    background-color: rgba(93,83,94,0.3);
+}
+
+.package1 p {
+    padding: 2%;
+    text-align: center;
+    color: #000;
+}
+    
+.package2 {
+    position: relative;
+    margin-top: 5%;
+    background-color: rgba(93,83,94,0.3);
+}
+
+.package2 p {
+    padding: 2%;
+    text-align: center;
+    color: #000;
+}
+
+.package3 {
+    position: relative;
+    margin-top: 3%;
+    background-color: rgba(93,83,94,0.3);
+    margin-bottom:100px;
+}
+
+.package3 p {
+    padding: 2%;
+    text-align: center;
+    color: #000;
+}
+
+a {
+    color: #f7552c;
+    text-decoration: none;
+    padding: 2%;
+}
+
+a:hover {
+    color: #09abf6;
+}
+    
+footer h3 {
+    padding: 1% 2%;
+    font-family: Marison, serif;
+}
+    
+footer a {
+    padding: 2%;
+}
+
+}

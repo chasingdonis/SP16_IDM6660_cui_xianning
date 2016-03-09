@@ -1,0 +1,159 @@
+@media screen and (min-width: 501px) and (max-width: 800px) {
+$get-path-to-assets: "../img";
+
+      html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+    
+html {
+    font-family: 'Marison', sans-serif;
+    font-size: 1.1em;
+}
+
+body {
+    max-width: 98%;
+    position: relative;
+    margin: 2% auto;
+    line-height: 1.5;
+    padding: 2%;
+    background-color: #eaeaea;
+    background-image: url("#{$get-path-to-assets}/bg2.png");
+    background-repeat: no-repeat; 
+    background-position: top center; 
+  }
+    
+header {
+    background-image: url("#{$get-path-to-assets}/logo_small.png");
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    float:left;
+ }
+    
+ ul {
+    position: relative;
+    top: 180px;
+    list-style: none;
+    left: -10px;
+} 
+
+.icon {
+    width: 80%;
+    position: fixed;
+    top: 2%;
+    left: 50%;;
+}
+
+.icon a img{
+    width: 8%;   
+}
+
+article {
+    float: right;
+    width: 50%;
+    margin-right: 2%;
+    clear:both;
+}
+
+aside {
+    float: left;
+    width: 98%;
+    margin-top: 5%;
+    background-color: rgba(9,171,246,0.5);
+    padding: 3%;
+    z-index: 1;
+    margin-left: 1%;
+}
+    
+aside a {
+text-align: center;}
+    
+aside a:hover {
+    color: #5d535e;
+}
+
+section {
+    width: 47%;
+    float: left;
+    margin-left: 1%;
+}
+
+.package1 {
+    position: relative;
+    left: 0;
+    margin-top: 5%;
+    background-color: rgba(93,83,94,0.3);
+}
+
+.package1 p {
+    padding: 2%;
+    text-align: center;
+    color: #000;
+}
+    
+.package2 {
+    position: relative;
+    left: 3%;
+    margin-top: 5%;
+    background-color: rgba(93,83,94,0.3);
+}
+
+.package2 p {
+    padding: 2%;
+    text-align: center;
+    color: #000;
+}
+
+.package3 {
+    position: relative;
+    left: 26%;
+    margin-top: 3%;
+    background-color: rgba(93,83,94,0.3);
+    margin-bottom:200px;
+}
+
+.package3 p {
+    padding: 2%;
+    text-align: center;
+    color: #000;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    margin-top: 10px;
+    background-color: rgba(255,255,255, 0.6);
+    width: 100%;
+    z-index: 3;
+}
+    
+footer h3 {
+    padding: 1% 2%;
+    font-family: Marison, serif;
+}
+
+footer a {
+    padding: 2%;
+}
+
+a {
+    color: #f7552c;
+    text-decoration: none;
+    padding: 2%;
+}
+
+a:hover {
+    color: #09abf6;
+}
+  
+}

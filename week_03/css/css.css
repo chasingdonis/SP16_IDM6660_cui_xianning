@@ -156,10 +156,6 @@ aside ol {
 	text-align: center;
 }
 
-aside ol li {
-	list-style-position: inside;
-}
-
 footer {
     clear: both;
     position: relative;
@@ -272,7 +268,7 @@ footer li {
     }
 
 	aside ol li[id] {
-    display: inline-block;
+    display: block;
     width: 49%;
 	}
   
