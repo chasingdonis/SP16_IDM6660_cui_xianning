@@ -32,9 +32,17 @@ body {
 header {
     background-image: url("#{$get-path-to-assets}/logo3.png");
     background-repeat: no-repeat; 
-    background-size: 170%;
+    background-size: 172%;
     float:left;
  }
+    
+.icon a img{
+    width: 14%; 
+}
+    
+.icon {
+    margin-left: 3px;
+}
     
  ul {
     position: relative;
@@ -42,6 +50,28 @@ header {
     list-style: none;
     left: 0;   
 } 
+    
+ul li {
+    padding: 4px;
+}
+    
+.touchevents ul img {
+    width: 115%;
+    padding: 2px;
+}
+    
+.touchevents .icon a img {
+       width: 20%;
+}
+    
+.touchevents footer a {
+    font-size: 1.5em;
+    padding: 20%;
+}
+    
+.touchevents aside a {
+    font-size: 1.2em;
+}
 
 article {
     float: right;

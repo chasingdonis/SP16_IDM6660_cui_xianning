@@ -35,26 +35,30 @@ body {
 header {
     background-image: url("#{$get-path-to-assets}/logo_small.png");
     background-repeat: no-repeat; 
-    background-size: 100%;
+    background-size: 120%;
     float:left;
  }
     
  ul {
     position: relative;
-    top: 180px;
+    top: 200px;
     list-style: none;
     left: -10px;
 } 
 
+ul li {
+    padding: 3px;
+}
+
 .icon {
-    width: 80%;
-    position: fixed;
-    top: 2%;
-    left: 50%;;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    left: 45%;
 }
 
 .icon a img{
-    width: 8%;   
+    width: 6%;   
 }
 
 article {
@@ -132,7 +136,7 @@ footer {
     bottom: 0;
     left: 0px;
     margin-top: 10px;
-    background-color: rgba(255,255,255, 0.6);
+    background-color: rgba(255,255,255, 0.9);
     width: 100%;
     z-index: 3;
 }
@@ -147,13 +151,13 @@ footer a {
 }
 
 a {
-    color: #f7552c;
+    color: #000;
     text-decoration: none;
     padding: 2%;
 }
 
 a:hover {
-    color: #09abf6;
+    color: #f7552c;
 }
   
 }
